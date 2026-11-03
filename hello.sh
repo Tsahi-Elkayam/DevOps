@@ -1,2 +1,3 @@
 #!/bin/sh
-echo "Hello from the DevOps demo repo"
+NAME="${1:-world}"
+echo "Hello, $NAME, from the DevOps demo repo"
